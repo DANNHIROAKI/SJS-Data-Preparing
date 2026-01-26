@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pyd
+.env
+.venv
+.micromamba/
+data/
+cmab_spatial_join/
+cmab_spatial_join_test/
