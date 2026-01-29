@@ -1,3 +1,14 @@
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 # Specification for Controllable Output Density Synthetic Axis-Aligned Hyper-rectangle Generator
 
 ## 1. Background and Objectives
@@ -241,4 +252,5 @@ print(f"Solved Coverage (C): {info['coverage']:.6e}")
 print(f"Target Alpha:        {info['alpha_target']:.4f}")
 print(f"Expected Alpha:      {info['alpha_expected_est']:.4f}")
 print(f"Intersection Prob:   {info['pair_intersection_prob_est']:.6e}")
+
 ```
